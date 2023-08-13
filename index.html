@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Ricardo Novais</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/Logo_Ricardo_Novais_Fundo_Claro.svg" alt="" />
+      </div>
+
+      <div class="menu-toggle">
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+      </div>
+      </span>
+      <nav class="nav">
+        <ul class="nav__list" nav__list>
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#my-work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Ricardo Novais</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Software Developer</p>
+      <img
+        src="img/Foto_Ricardo.png"
+        alt="a picture of Ricardo Novais smiling"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- my services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Frontend</h3>
+          <p>
+            Focus on user experience, user-friendly and visually appealing
+            websites, and interactive features with HTML, CSS, JavaScript,
+            React, and Vue.
+          </p>
+        </div>
+
+        <!-- / service -->
+
+        <div class="service">
+          <h3>Backend</h3>
+          <p>
+            APIs and web applications. I focus on optimizing data handling and
+            performance, using the best features possible, using Ruby on Rails.
+          </p>
+        </div>
+
+        <!-- / service -->
+
+        <div class="service">
+          <h3>Wordpress</h3>
+          <p>
+            Best for small projects, such as landing pages, blogs and even
+            online course platforms, depending on client need.
+          </p>
+        </div>
+
+        <!-- / service -->
+      </div>
+
+      <img src="img/Linguagens.png" alt="languages Ricardo uses" class="languages">
+
+      <!-- / services -->
+
+      <a href="#work" class="btn" id="my-work">My Work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Software Developer BH::MG::Brazil
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          I am married to Ananda and have 3 daughters: Rosa, Lira, and Aurora.
+          My first profession was as a musician. Today, I dedicate myself to the
+          art of creating interfaces and applications to develop businesses.
+        </p>
+      </div>
+
+
+      <img
+        src="img/Ricardo_who_I_am.png"
+        alt="Ricardo with moon shirt"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
+
+      <section class="portfolio">
+        <div class="portfolio__item">
+          <img src="img/Leilão_retangular.png" alt="">
+          <div class="stack-tags">
+            <p class="s-tag">Ruby On Rails</p>
+            <p class="s-tag">Bootstrap</p>
+            <p class="s-tag">Rspec</p>
+            <p class="s-tag">Capybara</p>
+            <p class="s-tag">Devise</p>
+            <p class="s-tag">I18n</p>
+          </div>
+          <p class="short-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Integer sed dolor rutrum, bibendum tortor at, ultricies mauris.
+            Pellentesque habitant morbi tristique senectus et netus et
+            malesuada fames ac turpis egestas.
+          </p>
+
+          <a href="portfolio_item.html" target="_blank" class="details-btn">Detalhes</a>
+        </div>
+        <div class="portfolio__item">
+          <img src="img/Em breve.png" alt="">
+          <div class="stack-tags">
+            <p class="s-tag">Ruby On Rails</p>
+            <p class="s-tag">Html</p>
+            <p class="s-tag">Bootstrap</p>
+          </div>
+          <p class="short-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Integer sed dolor rutrum, bibendum tortor at, ultricies mauris.
+            Pellentesque habitant morbi tristique senectus et netus et
+            malesuada fames ac turpis egestas.
+          </p>
+
+          <a href="portfolio_item.html" target="_blank" class="details-btn">Detalhes</a>
+        </div>
+      </section>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+      <a href="mailto:ricardonovais1@gmail.com" class="footer__link">ricardonovais1@gmail.com</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://www.linkedin.com/in/ricardo-miranda-de-novais-99711326/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/Ricardonovais1" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
