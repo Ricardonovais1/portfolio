@@ -408,13 +408,21 @@ header {
   }
 
   .portfolio {
-   width: 100vw;
+   width: 100%;
+   margin: 0;
+  }
+
+  section.portfolio {
+   padding: 0 0;
   }
 
 
-
   .portfolio__item {
-   width: 90%;
+   /* width: 90%; */
+   width: 100%;
+   min-width: 500px;
+   padding: 0;
+   border: none;
   }
 
 }
@@ -687,7 +695,6 @@ li {
    width: 100%;
    background-color: var(--clr-dark);
    margin: 0;
-   /* padding: 0; */
    padding-top: 4rem;
    display: flex;
    align-items: center;
