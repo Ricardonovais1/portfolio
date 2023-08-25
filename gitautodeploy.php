@@ -1,7 +1,7 @@
 <?php
 const API_KEY = "d1c0AdEWJOVWUdSyYW5iVaw8xm6jki";
 const API_URL = "https://api.cloudways.com/api/v1";
-const EMAIL = "ricardonovais1@gmail";
+const EMAIL = "ricardonovais1@gmail.com";
 
 
 const BranchName = "main";

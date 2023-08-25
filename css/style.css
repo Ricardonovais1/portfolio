@@ -808,8 +808,16 @@ form button:hover {
 
 .portfolio-item-individual {
    padding: 0 2em 2em;
+   display: flex;
+   flex-direction: column;
    max-width: 1000px;
    margin: 0 auto;
+}
+.gif-note {
+   padding-top: 0;
+   padding-bottom: 0;
+   margin: auto;
+   min-width: 450px;
 }
 
 .portfolio-item-individual p {
