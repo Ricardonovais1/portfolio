@@ -45,9 +45,9 @@
           <li class="nav__item">
             <a href="#my-work" class="nav__link">My Work</a>
           </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
+          <!-- <li class="nav__item">
+            <a href="#contact" class="nav__link"></a>
+          </li> -->
         </ul>
       </nav>
     </header>
@@ -104,7 +104,7 @@
 
       <!-- / services -->
 
-      <a href="#work" class="btn" id="my-work">My Work</a>
+      <a href="#work" class="btn">My Work</a>
     </section>
 
     <!-- About me -->
@@ -132,9 +132,8 @@
 
     <!-- My Work -->
     <section class="my-work" id="work">
-      <h2 class="section__title section__title--work">My work</h2>
+      <h2 class="section__title section__title--work"  id="my-work">Recent Works</h2>
       <p class="section__subtitle section__subtitle--work">
-        A selection of my work
       </p>
 
       <section class="portfolio">
@@ -158,6 +157,40 @@
           <a href="portfolio_item.html" class="details-btn">Details</a>
         </div>
         <div class="portfolio__item">
+          <img src="img/Numerologia.png" alt="">
+          <div class="stack-tags">
+            <p class="s-tag">Vue js</p>
+            <p class="s-tag">Html</p>
+            <p class="s-tag">Css</p>
+          </div>
+          <p class="short-description">Website for numerologist Evanise Colombini, where users can enter their
+            name and date of birth and receive an instant analysis based on your numerology.
+            The logic was written using Vue Js, Javascript framework
+          </p>
+
+          <a href="https://ricardonovais1.github.io/evanise-colombini/numerologia.html" target="_blank" class="details-btn">Use App</a>
+        </div>
+
+        <div class="portfolio__item">
+          <img src="img/Shopping Club.png" alt="">
+          <div class="stack-tags">
+            <p class="s-tag">Ruby On Rails</p>
+            <p class="s-tag">Bootstrap</p>
+            <p class="s-tag">Javascript</p>
+            <p class="s-tag">Rspec</p>
+            <p class="s-tag">SQLite</p>
+            <p class="s-tag">Html</p>
+            <p class="s-tag">Css</p>
+          </div>
+          <p class="short-description">The Shopping Club consists of 3 Apps: Companies management, Cards management and
+            Club Store. These 3 apps work together allowing companies to register their colaborators to get points to buy
+            products at the club store.
+          </p>
+
+          <a href="shopping_club.html" class="details-btn">Details</a>
+        </div>
+
+        <div class="portfolio__item">
           <img src="img/notes_app.png" alt="">
           <div class="stack-tags">
             <p class="s-tag">React</p>
@@ -177,7 +210,7 @@
       </section>
     </section>
 
-      <div class="form-container" id="contact">
+      <!-- <div class="form-container" id="contact">
         <form onsubmit="sendEmail(); reset(); return false">
           <h5 class="section__title section__title--contact">Get in touch</h5>
           <input type="text" id="name" placeholder="Your name" required>
@@ -186,7 +219,7 @@
           <textarea id="message" rows="4" placeholder="How can I help you?" required></textarea>
           <button type="submit">Send message</button>
         </form>
-      </div>
+      </div> -->
 
     <!-- Footer -->
     <footer class="footer">
