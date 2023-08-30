@@ -316,6 +316,9 @@ header {
    width: 100%;
 }
 
+.study-title {
+   color: var(--clr-dark);
+}
 
 .section__title--intro strong {
    display: block;
@@ -584,6 +587,15 @@ header {
    align-items: center;
 }
 
+.study-projects {
+   background-color: var(--clr-light);
+   color: var(--clr-light);
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
 
 .portfolio {
    display: flex;
@@ -631,11 +643,16 @@ header {
    width: 80%;
 }
 
-.details-btn {
+.short-description-study {
+   text-align: left;
+   width: 80%;
+   color: var(--clr-dark);
+}
+
+.details-btn,
+.details-btn-study {
    display: inline-block;
    padding: .8em 2em;
-   background: var(--clr-accent);
-   color: var(--clr-dark);
    text-decoration: none;
    cursor: pointer;
    font-size: 1.3rem;
@@ -646,6 +663,16 @@ header {
    width: 100%;
    align-self: flex-start;
    transition: transform 200ms ease-in-out;
+}
+
+.details-btn {
+   background: var(--clr-accent);
+   color: var(--clr-dark);
+}
+
+.details-btn-study {
+   background: var(--clr-dark);
+   color: var(--clr-accent);
 }
 
 .portfolio__img {
