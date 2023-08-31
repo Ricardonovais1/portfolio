@@ -435,7 +435,8 @@ header {
   }
 
 
-  .portfolio__item {
+  .portfolio__item,
+  .portfolio__item--study {
    /* width: 90%; */
    width: 100%;
    min-width: 500px;
@@ -473,6 +474,10 @@ header {
   }
 
   .portfolio__item {
+   width: 85%;
+  }
+
+  .portfolio__item--study {
    width: 85%;
   }
 
