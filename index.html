@@ -45,9 +45,6 @@
           <li class="nav__item">
             <a href="#my-work" class="nav__link">My Work</a>
           </li>
-          <li class="nav__item">
-            <a href="#study" class="nav__link">Study</a>
-          </li>
         </ul>
       </nav>
     </header>
@@ -138,7 +135,7 @@
 
       <section class="portfolio">
         <div class="portfolio__item">
-          <a href="portfolio_item.html" target="_blank">
+          <a href="#" target="_blank">
             <img src="img/Leilão_retangular.png" alt="">
           </a>
           <div class="stack-tags">
@@ -190,33 +187,225 @@
           <a href="shopping_club.html" class="details-btn">Details</a>
         </div>
 
+        <div class="portfolio__item">
+          <img src="img/Medical_exams.png" alt="">
+          <div class="stack-tags">
+            <p class="s-tag">Sinatra</p>
+            <p class="s-tag">Docker</p>
+            <p class="s-tag">Javascript</p>
+            <p class="s-tag">Rspec</p>
+            <p class="s-tag">Postgres</p>
+            <p class="s-tag">Html</p>
+            <p class="s-tag">Css</p>
+          </div>
+          <p class="short-description">Employees of the medical lab can upload csv files with data from medical exams, which
+            get stored in a postgres database (no ORM, every query was writen by hand in plain SQL) and then exposed in an API. The app users
+            docker, sidekiq and has AJAX functionality to read from the API.
+          </p>
+
+          <a href="medical_exams.html" class="details-btn">Details</a>
+        </div>
+
 
       </section>
     </section>
 
+
     <section class="study-projects" id="study">
-      <h2 class="section__title section__title--work study-title"  id="study">Study Projects</h2>
+      <h2 class="section__title section__title--work study-title"  id="study">Small Projects</h2>
       <p class="section__subtitle section__subtitle--work">
       </p>
 
-      <div class="portfolio__item">
-        <img src="img/notes_app.png" alt="">
+    <section class="portfolio">
+      <div class="portfolio__item--study">
+        <h3 class="study-title">Notes app</h3>
+        <img src="img/notes_app.gif" alt="">
         <div class="stack-tags">
-          <p class="s-tag">React</p>
-          <p class="s-tag">Ruby On Rails</p>
-          <p class="s-tag">Rspec</p>
-          <p class="s-tag">Postgres</p>
-          <p class="s-tag">Html</p>
-          <p class="s-tag">Css</p>
+          <p class="s-tag-study">React</p>
+          <p class="s-tag-study">Ruby On Rails</p>
+          <p class="s-tag-study">Rspec</p>
+          <p class="s-tag-study">Postgres</p>
+          <p class="s-tag-study">Html</p>
+          <p class="s-tag-study">Css</p>
         </div>
+
         <p class="short-description-study">Notes app built in React with a backend in Ruby on Rails.
-          Simple approach where the PostgreSQL database stores the notes.
           Unit tests for all REST operations in the Rails API.
         </p>
 
         <a href="notes_app.html" class="details-btn-study">Details</a>
       </div>
+
+      <div class="portfolio__item--study">
+        <h3 class="study-title">Multiplication table</h3>
+        <img src="img/tabuada.gif" alt="">
+        <div class="stack-tags">
+          <p class="s-tag-study">Javascript</p>
+          <p class="s-tag-study">Object oriented</p>
+          <p class="s-tag-study">Html</p>
+          <p class="s-tag-study">Css</p>
+        </div>
+
+        <p class="short-description-study">I made this simple app with the purpose
+          of helping my 3 children to practice the multiplication table.
+        </p>
+
+        <div class="projetc-btns">
+          <a href="https://github.com/Ricardonovais1/treinar-tabuada" target="_blank" class="details-btn-study">Github</a>
+          <a href="https://ricardonovais1.github.io/treinar-tabuada/" target="_blank" class="details-btn-study-live">Live</a>
+        </div>
+      </div>
+
+      <div class="portfolio__item--study">
+        <h3 class="study-title">Star wars planets</h3>
+        <img src="img/star_wars.gif" alt="">
+        <div class="stack-tags">
+          <p class="s-tag-study">Javascript</p>
+          <p class="s-tag-study">API</p>
+          <p class="s-tag-study">Html</p>
+          <p class="s-tag-study">Css</p>
+        </div>
+
+        <p class="short-description-study">This is an exercise of pullind data from an API.
+          Name, population and celebrities os Star Wars planets.
+        </p>
+
+        <div class="projetc-btns">
+          <a href="https://github.com/Ricardonovais1/star-wars-planets" target="_blank" class="details-btn-study">Github</a>
+          <a href="https://ricardonovais1.github.io/star-wars-planets/" target="_blank" class="details-btn-study-live">Live</a>
+        </div>
+
+      </div>
+
+      <div class="portfolio__item--study">
+        <h3 class="study-title">Etch a Sketch</h3>
+        <img src="img/etch_a_sketch.gif" alt="">
+        <div class="stack-tags">
+          <p class="s-tag-study">Javascript</p>
+          <p class="s-tag-study">Html</p>
+          <p class="s-tag-study">Css</p>
+        </div>
+
+        <p class="short-description-study">Choose a color or random color option, and line thickness
+          and dran in this cool board! Only for larger screens.
+        </p>
+
+        <div class="projetc-btns">
+          <a href="https://github.com/Ricardonovais1/etch-a-sketch" target="_blank" class="details-btn-study">Github</a>
+          <a href="https://ricardonovais1.github.io/etch-a-sketch/" target="_blank" class="details-btn-study-live">Live</a>
+        </div>
+
+      </div>
+
+      <div class="portfolio__item--study">
+        <h3 class="study-title">Word find</h3>
+        <img src="img/word_find.gif" alt="">
+        <div class="stack-tags">
+          <p class="s-tag-study">React</p>
+          <p class="s-tag-study">Html</p>
+          <p class="s-tag-study">Css</p>
+        </div>
+
+        <p class="short-description-study">You need to guess the letters to find the right word.
+          If you loose all chances you must restart.
+        </p>
+
+        <div class="projetc-btns">
+          <a href="https://github.com/Ricardonovais1/word-find" target="_blank" class="details-btn-study">Github</a>
+          <a href="https://ricardonovais1.github.io/word-find/" target="_blank" class="details-btn-study-live">Live</a>
+        </div>
+
+      </div>
+
+      <div class="portfolio__item--study">
+        <h3 class="study-title">Rock paper scisors</h3>
+        <img src="img/rock_paper_scisors.gif" alt="">
+        <div class="stack-tags">
+          <p class="s-tag-study">Javascript</p>
+          <p class="s-tag-study">Html</p>
+          <p class="s-tag-study">Css</p>
+        </div>
+
+        <p class="short-description-study">The good and old Rock paper scisors game. You will play
+          agaist the pc until one of you get to 5 points.
+        </p>
+
+        <div class="projetc-btns">
+          <a href="https://github.com/Ricardonovais1/rock-paper-scissors" target="_blank" class="details-btn-study">Github</a>
+          <a href="https://ricardonovais1.github.io/rock-paper-scissors/" target="_blank" class="details-btn-study-live">Live</a>
+        </div>
+
+      </div>
     </section>
+  </section>
+
+  <section class="my-work" id="work">
+    <h2 class="section__title section__title--work"  id="my-work">Wordpress</h2>
+    <p class="section__subtitle section__subtitle--work">
+    </p>
+
+    <section class="portfolio">
+      <div class="portfolio__item">
+        <h3 class="study-title-wordpress">Amigo Violão</h3>
+
+        <a href="#" target="_blank">
+          <img src="img/Amigo_violao.gif" alt="">
+        </a>
+        <div class="stack-tags">
+          <p class="s-tag">Wordpress</p>
+        </div>
+        <p class="short-description">Guitar courses website, with SEO optimized blog. More than 10 courses
+          almost 900 students registered.
+        </p>
+
+        <a href="https://amigoviolao.com/" target="_blank" class="details-btn">Visit site</a>
+      </div>
+
+      <div class="portfolio__item">
+        <h3 class="study-title-wordpress">Ananda Sette</h3>
+
+        <img src="img/Ananda_blog.gif" alt="">
+        <div class="stack-tags">
+          <p class="s-tag">Wordpress</p>
+        </div>
+        <p class="short-description">Sewing courses website. Has 3 courses and 100+ students registered, plus
+          blog with SEO optimization.
+        </p>
+
+        <a href="https://anandasette.com/blog/" target="_blank" class="details-btn">Visit site</a>
+      </div>
+
+      <div class="portfolio__item">
+        <h3 class="study-title-wordpress">Online Course</h3>
+
+        <img src="img/m_afetiva.gif" alt="">
+        <div class="stack-tags">
+          <p class="s-tag">Wordpress</p>
+        </div>
+        <p class="short-description">Sales page for the course "Modelagem descomplicada afetiva", by Ananda Sette,
+          with careful design and thoughtfull sessions.
+        </p>
+
+        <a href="https://anandasette.com/modelagem-descomplicada-afetiva-curso-online/" target="_blank" class="details-btn">Visit site</a>
+      </div>
+
+      <div class="portfolio__item">
+        <h3 class="study-title-wordpress">Yuri Camargo</h3>
+
+        <img src="img/yuri.gif" alt="">
+        <div class="stack-tags">
+          <p class="s-tag">Wordpress</p>
+        </div>
+        <p class="short-description">Site with online courses by guitarrist Yuri Camargo,
+          where his students can watch video lessons between their weekly lessosn
+        </p>
+
+        <a href="https://yuricamargogtr.com/" target="_blank" class="details-btn">Ver site</a>
+      </div>
+
+
+    </section>
+  </section>
 
       <!-- <div class="form-container" id="contact">
         <form onsubmit="sendEmail(); reset(); return false">

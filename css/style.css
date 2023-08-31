@@ -62,6 +62,21 @@ html {
 
 }
 
+.projetc-btns {
+   display: flex;
+   gap: .3rem;
+}
+
+.study-title {
+   color: var(--clr-dark);
+   margin-bottom: 1rem;
+}
+
+.study-title-wordpress {
+   color: var(--clr-accent);
+   margin-bottom: 1rem;
+}
+
 .social-list {
    margin-left: auto;
    margin-right: auto;
@@ -616,6 +631,13 @@ header {
    flex-direction: column;
 }
 
+.portfolio__item--study {
+   min-width: 200px;
+   max-width: 300px;
+   display: flex;
+   flex-direction: column;
+}
+
 .stack-tags {
    display: flex;
    gap: .2rem;
@@ -638,6 +660,17 @@ header {
    border-radius: 2rem;
 }
 
+.s-tag-study {
+   background-color: rgb(24, 24, 24);
+   padding: .2rem;
+   padding-left: 1.5rem;
+   padding-right: 1.5rem;
+   color: var(--clr-light);
+   font-weight: 500;
+   font-size: small;
+   border-radius: 2rem;
+}
+
 .short-description {
    text-align: left;
    width: 80%;
@@ -650,7 +683,8 @@ header {
 }
 
 .details-btn,
-.details-btn-study {
+.details-btn-study,
+.details-btn-study-live {
    display: inline-block;
    padding: .8em 2em;
    text-decoration: none;
@@ -666,6 +700,11 @@ header {
 }
 
 .details-btn {
+   background: var(--clr-accent);
+   color: var(--clr-dark);
+}
+
+.details-btn-study-live {
    background: var(--clr-accent);
    color: var(--clr-dark);
 }
